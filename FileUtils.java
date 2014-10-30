@@ -9,7 +9,7 @@ public class FileUtils {
 		int size = is.available();
 		byte[] buffer = new byte[size];
 		is.read(buffer);
-		System.out.println("this is a joke");
+		System.out.println("this a joke");
 		is.close();
 		String bufferString = new String(buffer);
 		return bufferString;
